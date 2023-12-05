@@ -1,3 +1,5 @@
+
+/* HEADER */
 .header-container {
     display: flex;
     flex-direction: column;
@@ -18,4 +20,33 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: bold;
     font-weight: 800;
+}
+
+/*MAIN */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    
+}
+
+.poster-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.poster-card-picture {
+    
+
+}
+
+.poster-card-text {
+    
+     
+    
 }
