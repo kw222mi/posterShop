@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: column;
     width: 20%;
+    
 }
 
 .poster-card-picture {
@@ -45,8 +46,22 @@
 
 }
 
+.poster-card-h3 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
 .poster-card-text {
     
      
     
+}
+.poster-card-button {
+    background-color: red;
+    border-color: red;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
 }
