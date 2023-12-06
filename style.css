@@ -22,7 +22,7 @@
     font-weight: 800;
 }
 
-/*MAIN */
+/*MAIN CONTENT*/
 
 .main-container {
     display: flex;
@@ -36,6 +36,7 @@
     
 }
 
+/* CARD */
 .poster-card {
     display: flex;
     flex-direction: column;
@@ -66,4 +67,69 @@
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
+}
+
+/* HIGHLIGHT CARDS */
+.poster-card-highlight-container {
+
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        padding-top: 80px;
+        gap: 2em;
+
+}
+
+.poster-card-highlight {
+    display: flex;
+        flex-direction: column;
+        width: 30%;
+        background-color: white;
+        color: black;
+}
+
+.highlight-margin {
+    margin: 15px;
+}
+
+/* FOOTER */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(69, 67, 67);
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex:1;
+}
+.footer-h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    line-height: .5em;
+}
+.icon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.footer-icon {
+    width: 30px;
 }
