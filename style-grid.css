@@ -66,3 +66,28 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+/* HIGHLIGHT CARDS */
+.poster-card-highlight-container {
+
+    display: grid;
+   grid-template-columns: 300px 300px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 2em;
+}
+
+.poster-card-highlight {
+    display: grid;
+    grid-template-rows: 300px auto auto auto;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.highlight-margin {
+    margin: 15px;
+}
