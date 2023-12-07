@@ -91,3 +91,32 @@
 .highlight-margin {
     margin: 15px;
 }
+
+/* FOOTER */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 180px 180px 180px ;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(69, 67, 67);
+    gap: 10%;
+}
+
+.footer-column {
+    display: grid;
+    grid-template-rows: auto auto;
+    color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.footer-h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-icon {
+    width: 30px;
+}   
